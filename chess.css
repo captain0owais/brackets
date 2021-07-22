@@ -1,0 +1,85 @@
+img
+{
+    height:300px;
+    width:400px;
+    border-radius:100px;
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius:100px;
+    margin-bottom:25px;
+    margin-top:50px;
+}
+
+#chess
+{
+    font-family:cursive;
+    font-size:40px;
+    font-weight:bold;
+}
+
+#heading
+{
+   font-family:monospace;
+    font-size:50px;
+    font-weight:bold;
+} 
+
+
+h2
+{
+    font-family:inherit;
+    font-size:25px;
+}
+
+#main
+{
+    text-align:center;
+    height:100%;
+    width:100%;
+    background:linear-gradient(#ff99cc, #66ccff);
+    opacity:0.8;
+    opacity:0.8;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:500px;
+    overflow:hidden;
+    display:table;
+    z-index:9;
+}
+
+p
+{
+    font-size:25px;
+    margin:50px;
+}
+
+hr
+{
+    font-weight:bold;
+    width:30%;
+}
+
+#menu
+{
+    float:right;
+    font-family:cursive;
+    position:absolute;
+    margin:10px;
+    z-index:10;
+    cursor:pointer;
+}
+
+.links
+{
+    float:right;
+    list-style:none;
+    margin:5px;
+    float:right;
+    text-align:right;
+}
+
+.links:hover
+{
+    background-color:lightblue;
+}
