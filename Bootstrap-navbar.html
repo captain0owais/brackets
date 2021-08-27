@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+           #map
+        {
+            width:100%;
+            padding-left:100px;
+            padding-right:100px;
+        }
+        
+        #mail
+        {
+            width:30px;
+            height:30px;
+        }
+        
+        #insta
+        {
+            width:50px;
+            height:50px;
+        }
+        
+        #photo
+        {
+            width:200px;
+            height:150px;
+        }
+        
+        #navbar
+        {
+            position:sticky;
+            top:0;
+            z-index:999999;
+        }
+        
+        .ids
+        {
+            font-weight:bold;
+            bottom:0;
+            z-index:0.01
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Owais</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Books</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Travel</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#">Movies</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#">Envirnment</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#">About Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+    <br><br><br>
+    <center>
+    
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15552.992028287572!2d77.5963265!3d12.95597585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1629800523650!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="true" loading="fast"></iframe>
+        
+    <br><br><br><br><br>
+        
+    </center>
+    
+<span><img src="data:image/png;base64,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">
+</span>
+
+<span>
+<p id="gmail" class="ids">Gmail id = captainowais9@gmail.com</p>
+    <p id="gmail" class="ids">Instagram id = captainowais9@instagram.com</p>
+</span>
+    
+</body>
+</html>
